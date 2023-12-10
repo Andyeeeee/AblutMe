@@ -12,7 +12,7 @@
       <v-col class="v-col-12 v-col-sm-4">
         <div><v-icon icon="mdi-email-edit-outline" />信箱:10514f074@gmail.com</div>
         <div><v-icon icon="mdi-cellphone-text" />LINE(手機):0908488070</div>
-        <div><v-icon icon="mdi-phone" />電話:0908488070</div>
+        <div><v-icon icon="mdi-phone" />1電話:0908488070</div>
       </v-col>
     </v-row>
   </div>
