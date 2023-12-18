@@ -10,21 +10,21 @@ const routes = [
         path: '',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
         meta: {
-          title: '首頁'
+          title: '首頁 | 駿丞網站'
         }
       },
       {
         path: 'aboutme',
         component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
         meta: {
-          title: '關於我'
+          title: '關於我 | 駿丞網站'
         }
       },
       {
         path: 'myproduct',
         component: () => import(/* webpackChunkName:"myproduct" */'@/views/MyProduct'),
         meta: {
-          title: '我的作品'
+          title: '我的作品 | 駿丞網站'
         }
       }
     ]
