@@ -16,7 +16,7 @@
         <v-spacer />
         <v-app-bar-nav-icon v-if="ismobile" @click="drawer = true" />
         <template v-if="!ismobile">
-          <v-btn>關於我</v-btn>
+          <v-btn to="aboutme">關於我</v-btn>
           <v-btn>我的作品</v-btn>
           <v-btn>我的能力</v-btn>
           <v-btn>學習歷程</v-btn>

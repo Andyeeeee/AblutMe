@@ -13,13 +13,7 @@ const routes = [
           title: '首頁 | 駿丞網站'
         }
       },
-      {
-        path: 'aboutme',
-        component: () => import(/* webpackChunkName:"aboutme" */ '@/views/AboutMe.vue'),
-        meta: {
-          title: '關於我 | 駿丞網站'
-        }
-      },
+
       {
         path: 'myproduct',
         component: () => import(/* webpackChunkName:"myproduct" */'@/views/MyProduct'),
