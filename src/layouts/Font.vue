@@ -24,9 +24,9 @@
         </template>
       </v-app-bar>
       <v-main>
-        <TitlePicVue></TitlePicVue>
+        <!-- <TitlePicVue></TitlePicVue>
         <router-view />
-        <MainFooter></MainFooter>
+        <MainFooter></MainFooter> -->
       </v-main>
     </v-app>
   </div>
