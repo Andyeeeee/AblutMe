@@ -7,7 +7,7 @@ const routes = [
     component: () => import('@/layouts/Font.vue'),
     children: [
       {
-        path: '',
+        path: '/',
         component: () => import(/* webpackChunkName: "home" */ '@/views/Home.vue'),
         meta: {
           title: '首頁 | 駿丞網站'
